@@ -1,0 +1,63 @@
+---
+id: get-credit-balance
+title: "Get credit balance"
+description: "Retrieve the authenticated user's current credit balance"
+sidebar_label: "Get credit balance"
+hide_title: true
+hide_table_of_contents: true
+api: eJzFV21v2zYQ/isH9sM2QH5J0RWD9skNsi4tCgRNum6LA+QsnS02FKmSlFvX8O/YD9ofG46iZMlO1mItsE+J6eO9PM/dc/RWeFw5kV6LU0u59E7cJCInl1lZeWm0SMVr8lbSmsAXBFj7grSXGXrKoXZkv3OQ1daS9pAFF7BAhTojkQhTkUV2c56LVKzIN0GedQaWXGW0IyfSrXg8nfKfYfTTgU+wMZkcXJ1l5NyyVmojEpEZ7Ul7doBVpThBafTknWMvW+Gygkrk//ymIpEKs3hHmReJqCxn6WWTQ5v73lBqTyuy4hCWK+NRAa5RKlwoisU7WFpTgqsXnS2gzgHzfGQ0VMYoJxJBH7GsFIn05KfpdJeIvn1LxOdTiJZgqUSppV6B1IGllpBBGhVZafJB8MchOOb5fVE7hIZBZ00lkWsuKBRYSOeNlRlj0lh4Bsh9BcKzDlvsxxzg9zRUEEKdodWUfzlzA59A4TaYNVlApcDLkgZYTfeRLqvYaf8lkOPLD8d5Mp3udjwY72tpuZxrsZ+nfp2DXG4Ci5Ljorro4b1E5ehhh/f13UFD/LvrRHjpOW8xHO1dr6Qe59zuD3Q7N+NxL3Y3n/K3A56ZkSEhAbsdV/tkenIsJW80q5ex8lOA7xspBllrbM/MeSv16qgXztgMgk0PGjG7OIc72kBHzy4RJTmHK/q8z1/rEvXIEuZhSkIm0N7uR7lQhI6gsmYtcwLU0MaNgvH7aHZxPnpJGygIc7JgLMwiWAGWeC4OW6mp/kt7ZLbfHtLoAIloCPvxPu0/156sRgWOLM9LE+x/ZO6bkfN1MEbgBiMWixG/oFSUgzewoqONHKejJF+YuJEZFfSFSMUEKzmJKjXpSUTAnp8IW1FbJVJReF+5dML2409rmY+lOar+wpq8zkLnNA7E7oZ9ZbWVfhOczSr5kjbcEiK9vtklW/GM0JLtTnoXLpnShrX+tY4DDIciEZKDx15NhMaSv/04wkqO7oLBwYqJY7A0tv+0kUaP4dQSegKjiadkY2oLObpiYdDmY0a/n26XCYPDqIWERSoWwegocHMXvLkjfRT5lXEeMMtMrT2QzisjtXd8QpUH3KcBL95e/RwG2JLmseUp5nraS4DKmXjR9eceHSD0kxiHnpR6aUIxsdP+XMuc74hEcBM0uZ+Mp+PpUUWtKW8188ExYNyFlTUri2WJXJ5SG25JhpXfDCVqXBGwJplYAT9i3pmFS6A0Wnpj272Z9G/EKtx4ruf60SMY6gofXtQLJbNguAcwTtwB3lA7jroHZwx/mBrK2vl0rk+6Ruiht5YYUA81d2zM9eMxnOtM1XnzWD4Q2duuD29bmf0gfQG0JttsAHJ+DGddvr5AfsNVlbG+R/pB+j2K95y+eHvVhR0IeRs6QHfW6Ec617e3t3Pd5ZeGdm8/jQqyFE0C3O2783LjPJV8+NsBhZnRri7Jda+eBTp+Xel0rkfQWjuj6lDC9x9k7gv4+y8oSK4K/8PeKq9tR+orvCNwtaXQXAWu+dNyKTO5//XhYEFLY/mbRSm952zicHBfjec6LhDMwgKJEhGYvGygFsmB0EWRm0QqwqRUxvkSdc/F82O9PZiR7X5zfc2vqqg0nj76SaVQahajkPE2avk1CyLX2T3p2ts3iSiM82yy3TIpb6za7fj4fU2WhfkmEWu0kpdWo8utnLJms4amYhaajTUBVd3I78EWZu3utszzsyux2/0DknsRvQ==
+sidebar_class_name: "get api-method"
+info_path: docs/endpoints/zvid-api
+custom_edit_url: null
+---
+
+import MethodEndpoint from "@theme/ApiExplorer/MethodEndpoint";
+import ParamsDetails from "@theme/ParamsDetails";
+import RequestSchema from "@theme/RequestSchema";
+import StatusCodes from "@theme/StatusCodes";
+import OperationTabs from "@theme/OperationTabs";
+import TabItem from "@theme/TabItem";
+import Heading from "@theme/Heading";
+
+<Heading
+  as={"h1"}
+  className={"openapi__heading"}
+  children={"Get credit balance"}
+>
+</Heading>
+
+<MethodEndpoint
+  method={"get"}
+  path={"/api/credits/balance"}
+  context={"endpoint"}
+>
+  
+</MethodEndpoint>
+
+
+
+Retrieve the authenticated user's current credit balance
+
+<ParamsDetails
+  parameters={undefined}
+>
+  
+</ParamsDetails>
+
+<RequestSchema
+  title={"Body"}
+  body={undefined}
+>
+  
+</RequestSchema>
+
+<StatusCodes
+  id={undefined}
+  label={undefined}
+  responses={{"200":{"description":"Credit balance retrieved successfully","content":{"application/json":{"schema":{"type":"object","properties":{"balance":{"type":"integer","description":"Total available credits from subscription and add-on pools","example":1800},"subscriptionCredits":{"type":"integer","description":"Credits remaining in the current subscription period","example":1200},"addonCredits":{"type":"object","description":"Add-on credit pool and historical add-on totals","properties":{"balance":{"type":"integer","description":"Available add-on credits","example":600},"totalEarned":{"type":"integer","description":"Total add-on credits earned over all time","example":1000},"totalSpent":{"type":"integer","description":"Total add-on credits spent over all time","example":400}},"required":["balance","totalEarned","totalSpent"],"additionalProperties":false}},"required":["balance","subscriptionCredits","addonCredits"],"additionalProperties":false,"title":"CreditBalance"},"example":{"balance":1800,"subscriptionCredits":1200,"addonCredits":{"balance":600,"totalEarned":1000,"totalSpent":400}}}}},"401":{"description":"Unauthorized","content":{"application/json":{"schema":{"type":"object","properties":{"error":{"type":"string","description":"Error type","example":"API key required"},"message":{"type":"string","description":"Human-readable error message","example":"Please provide an API key in the X-API-Key header or Authorization header"}},"required":["error"],"additionalProperties":false,"title":"AuthenticationError"}}}},"500":{"description":"Internal server error","content":{"application/json":{"schema":{"type":"object","properties":{"error":{"type":"string","description":"Error type"},"message":{"type":"string","description":"Human-readable error message"}},"required":["error"],"additionalProperties":false,"title":"Error"},"example":{"error":"Failed to get credit balance"}}}}}}
+>
+  
+</StatusCodes>
+
+
+      

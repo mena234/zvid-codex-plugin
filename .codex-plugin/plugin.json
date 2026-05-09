@@ -1,0 +1,38 @@
+{
+  "name": "zvid",
+  "version": "0.1.0",
+  "description": "Zvid API and JSON-to-video authoring guidance derived from the Zvid docs and orchestrator validation rules.",
+  "author": {
+    "name": "Zvid",
+    "email": "help@zvid.io",
+    "url": "https://zvid.io"
+  },
+  "homepage": "https://docs.zvid.io",
+  "license": "UNLICENSED",
+  "keywords": [
+    "zvid",
+    "json-to-video",
+    "video-rendering",
+    "api",
+    "schema"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Zvid",
+    "shortDescription": "Create Zvid render payloads and API integrations.",
+    "longDescription": "Use the Zvid docs plus the orchestrator validation middleware to author render JSON, explain API usage, and generate schemas that match server-side validation.",
+    "developerName": "Zvid",
+    "category": "Developer Tools",
+    "capabilities": [
+      "Code",
+      "Write"
+    ],
+    "websiteURL": "https://docs.zvid.io",
+    "defaultPrompt": [
+      "Create a valid Zvid render payload.",
+      "Generate a schema from validation.js.",
+      "Show me the Zvid render API flow."
+    ],
+    "brandColor": "#ff6b35"
+  }
+}

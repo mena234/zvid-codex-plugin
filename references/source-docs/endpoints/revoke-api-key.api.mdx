@@ -1,0 +1,71 @@
+---
+id: revoke-api-key
+title: "Revoke API key"
+description: "Revoke (delete) an API key belonging to the authenticated user"
+sidebar_label: "Revoke API key"
+hide_title: true
+hide_table_of_contents: true
+api: eJzFVttu20YQ/ZXB5iUBKNkJCrRhn9zYQBU3gJE4TVtLgEfckbjxcpfZi2JF4Hf0g/pjxSwvoiU3LwnQB0Pmci5nzsye4U4EXHuR34izqxlc0taLRSYk+cKpOihrRC7e0sbeETyVpCnQM0ADbHxHW1iStmatzBqChVASYAwlmaAKDCQhenIiE7YmhxxsJkUuXAp3VqtL2opM1OiwokCOUeyEwYpELpQUmVCcvcZQikw4+hSVIyny4CIdQuzxzM5FJnxRUoUi34mwrVMwE2idkNA9VrUmkf/408umWXBYX1vjybP5i9NT/nk8dAtbgo9FQd6votYMv7AmkAnsh3WtuXBlzclHz867Yyx2+ZGKwHU7piWoNnUXdWS4tFYTmjForrzJREXe45pGtj44ZdZj06/DbpoxoTdD9n3sRdOw0Q+PMTIzG9RKwuw8GwbB2AArG43MwDoYGg4rVJrk9+OJnLPuscofQrxgM0g2XyfsoduvsUIzcYQSl5ogJYPe+5C0FsoiEyil4gCor0ZYV6g9ZSKokPqREIme1efHrL43fHesU1/+X74eH6Ku7O9G5jjLlSb0BLWzGyVpLC/KJFH5Y3J2NZtc0hZKQkmOR+ysI6sds/b8G1t0ttcuZc2+YanoUFoWr1YDk2yFUuTiBGvFf5M72vqTnZINCxC5Ta9n0WmRizKE2ucnbDn9slFyquwRX1fOylikctoAggXKUxGdCtsUrBVNxinym0WT7cQvhI7ccDJyeMcT0g7B2G3oGvYCnFS2IzDr9fd+0hV1BLPvzcq6sdora6bwyhEGAmuIW7e10YFEXy4tOjnl4RnDHZAwOb1sJ+VLRkeJW18I9o7MUeY31gfAorDRBCAja6tM8HxCdQDcw4DXH65/TlPlyPAs8WhxPb0ToPa2c/TjYUQPCGMQ0zRvyqxsKqabor82SrKPyAQPQYv9+fR0enpUUW8KqLX97Jkw3qO1s2uHVYVcntZbKFpa0Uio0OCagC+K7Srg7fvRLn0GlTUqWMf2UgWfjT26Kvx0bubmyRN4OOx8eBWXWhXJcE9gd5sO+IboOeuenCn8aSNU0Yd8bp4PgzBib6MwsZ5qHroxNy+mMDOFjpLS64ObfzvM4W1/9z+rUAJtyLWyRD5M4WLAG0oM4GNdWxdGTT+AP2rxvqevP1wPaR+oS586UXfRylY+N7e3t3Mz4MvTuPdPk5IcdSaJ7ldtS+Dd1geq+PD3gxYW1vhYke+7B0v0JMGafG4m0Ft7q2Mq4elnJUMJ//wNJal1GZ7trWR0Q1Pf4B2Bj47ScJW44afVShWKTNinopV1/GZZqRAYTXc5eK6mc9PtIyzSPuokInXyXUu1yA6ErhO5k64V6abU1ocKzShE92XZNf3wfuz2S/Dbv0E7rQl0H05qjcqwHCXMu07Lb1gSRSZ6NReZyJXk7VFaH/j9bsc9ee900/Dxp0iOdXmRiQ06xVsuqbRUnv+Xw4L5z6qevu2W1TN48AX7KNhetw0TtUEd+UlkgplLH8zNosl6IWcc7YuzNOYjl6PPCd4aw4I7v/jt4vpCNM2/i4o37Q==
+sidebar_class_name: "delete api-method"
+info_path: docs/endpoints/zvid-api
+custom_edit_url: null
+---
+
+import MethodEndpoint from "@theme/ApiExplorer/MethodEndpoint";
+import ParamsDetails from "@theme/ParamsDetails";
+import RequestSchema from "@theme/RequestSchema";
+import StatusCodes from "@theme/StatusCodes";
+import OperationTabs from "@theme/OperationTabs";
+import TabItem from "@theme/TabItem";
+import Heading from "@theme/Heading";
+
+<Heading
+  as={"h1"}
+  className={"openapi__heading"}
+  children={"Revoke API key"}
+>
+</Heading>
+
+<MethodEndpoint
+  method={"delete"}
+  path={"/api/api-keys/{id}"}
+  context={"endpoint"}
+>
+  
+</MethodEndpoint>
+
+
+
+Revoke (delete) an API key belonging to the authenticated user
+
+<Heading
+  id={"request"}
+  as={"h2"}
+  className={"openapi-tabs__heading"}
+  children={"Request"}
+>
+</Heading>
+
+<ParamsDetails
+  parameters={[{"name":"id","in":"path","required":true,"description":"API key ID","schema":{"type":"integer","example":789}}]}
+>
+  
+</ParamsDetails>
+
+<RequestSchema
+  title={"Body"}
+  body={undefined}
+>
+  
+</RequestSchema>
+
+<StatusCodes
+  id={undefined}
+  label={undefined}
+  responses={{"200":{"description":"API key revoked successfully","content":{"application/json":{"schema":{"type":"object","properties":{"success":{"type":"boolean","example":true},"message":{"type":"string","example":"API key revoked successfully"}},"required":["success","message"]}}}},"400":{"description":"Invalid ID, API key not found, or operation failed","content":{"application/json":{"schema":{"type":"object","properties":{"error":{"type":"string","description":"Error type"},"message":{"type":"string","description":"Human-readable error message"}},"required":["error"],"additionalProperties":false,"title":"Error"}}}},"401":{"description":"Unauthorized","content":{"application/json":{"schema":{"type":"object","properties":{"error":{"type":"string","description":"Error type","example":"API key required"},"message":{"type":"string","description":"Human-readable error message","example":"Please provide an API key in the X-API-Key header or Authorization header"}},"required":["error"],"additionalProperties":false,"title":"AuthenticationError"}}}}}}
+>
+  
+</StatusCodes>
+
+
+      
