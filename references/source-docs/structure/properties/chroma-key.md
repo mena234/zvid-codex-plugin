@@ -1,4 +1,5 @@
 ---
+source_url: "https://docs.zvid.io/docs/structure/properties/chroma-key"
 sidebar_position: 8
 ---
 

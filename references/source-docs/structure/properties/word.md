@@ -1,4 +1,5 @@
 ---
+source_url: "https://docs.zvid.io/docs/structure/properties/word"
 sidebar_position: 12
 ---
 

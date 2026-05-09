@@ -1,4 +1,5 @@
 ---
+source_url: "https://docs.zvid.io/docs/structure/properties/filter-options"
 sidebar_position: 6
 ---
 

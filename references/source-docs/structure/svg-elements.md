@@ -1,4 +1,5 @@
 ---
+source_url: "https://docs.zvid.io/docs/structure/svg-elements"
 sidebar_position: 5
 ---
 

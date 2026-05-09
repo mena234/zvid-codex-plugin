@@ -1,4 +1,5 @@
 ---
+source_url: "https://docs.zvid.io/docs/structure/properties/crop-params"
 sidebar_position: 7
 ---
 

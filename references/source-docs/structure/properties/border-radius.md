@@ -1,4 +1,5 @@
 ---
+source_url: "https://docs.zvid.io/docs/structure/properties/border-radius"
 sidebar_position: 9
 ---
 

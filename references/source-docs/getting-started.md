@@ -1,4 +1,5 @@
 ---
+source_url: "https://docs.zvid.io/docs/getting-started"
 sidebar_position: 3
 ---
 

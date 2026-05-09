@@ -1,4 +1,5 @@
 ---
+source_url: "https://docs.zvid.io/docs/structure/animations"
 sidebar_position: 7
 ---
 

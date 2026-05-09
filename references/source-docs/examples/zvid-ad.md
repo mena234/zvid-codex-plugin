@@ -1,4 +1,5 @@
 ---
+source_url: "https://docs.zvid.io/docs/examples/zvid-ad"
 sidebar_position: 3
 ---
 

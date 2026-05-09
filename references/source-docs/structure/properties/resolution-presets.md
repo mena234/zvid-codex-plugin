@@ -1,4 +1,5 @@
 ---
+source_url: "https://docs.zvid.io/docs/structure/properties/resolution-presets"
 sidebar_position: 1
 ---
 

@@ -1,4 +1,5 @@
 ---
+source_url: "https://docs.zvid.io/docs/structure"
 sidebar_position: 4
 ---
 
